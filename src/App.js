@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
+import Searchbar from './components/Searchbar';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './components/Home';
 import Events from './components/Events';
@@ -14,13 +15,15 @@ class App extends Component {
         <div className="App">
           <header className="container-fluid">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-3">
                 <img src={Logo} alt="logo"/>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 offset-md-1">
                 <Navbar/>
               </div>
-              <div className="col-md-4"></div>
+              <div className="col-md-4">
+                <Searchbar/>
+              </div>
             </div>
           </header>
           <main className="container-fluid">

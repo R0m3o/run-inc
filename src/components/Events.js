@@ -2,13 +2,13 @@ import React from 'react'
 
 const Events = () => {
     return (  
-        <div className="row">
+        <div className="row events-content">
             <section className="col-md-12">
                 <div className="row">
-                    <div className="col-md-9">
+                    <div className="col-md-9 events-img-box">
                         <div className="row">
-                            <div className="col-md-8 black-box">
-                                <p className="bookmark">NEXT EVENT</p>
+                            <div className="col-md-8 black-box text-right">
+                                <p className="bookmark text-white">NEXT EVENT</p>
                             </div>
                         </div>
                     </div>

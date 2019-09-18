@@ -19,6 +19,18 @@ a{
   color: #000000;
 }
 
+h2, h3, h4, p{
+  margin: 0px;
+}
+
+h2, h3{
+  font-weight: 700;
+}
+
+button{
+  outline: none;
+}
+
 .yellow-box{
   background-color: #FFFF00;
 }
@@ -27,6 +39,117 @@ a{
   background-color: #000000;
 }
 
+.border-black{
+  border: solid 2px #000000;
+}
+
 .bookmark{
-  color: #FFFFFF;
+  margin: 0px;
+  padding: 0px 25px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.bookmark span{
+  color: #FFFF00;
+}
+/*----------HEADER----------*/
+/*----------NAVBAR----------*/
+.page-menu{
+  height: 100%;
+}
+
+ol{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-menu li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-menu a{
+  font-weight: 900;
+}
+
+.page-menu li:hover{
+  background-color: #575757;
+}
+
+.page-menu a:hover{
+  color: #FFFF00;
+  text-decoration: none;
+}
+
+.active{
+  color: #DF1B1C;
+}
+
+/*----------SEARCHBAR----------*/
+header form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/*----------BANNER----------*/
+.home-content{
+  background-image: url(./assets/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 450px 0px 155px;
+}
+
+/*----------EVENTS----------*/
+.events-img-box{
+  background-image: url(./assets/images/event.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 150px 0px 450px;
+}
+
+/*----------SHOP----------*/
+.yellow-box article{
+  padding: 85px 20px 0px;
+}
+
+.shop-white-space{
+  padding: 110px 0px 0px;
+}
+
+.shop-item-box{
+  padding: 20px 15px;
+}
+
+.shop-item{
+  padding: 10px 30px;
+}
+
+.item-description{
+  font-size: 14px;
+}
+
+/*----------CONTACT----------*/
+.contact-content article{
+  padding: 50px 0px 35px;
+}
+
+.map-img-box{
+  background-image: url(./assets/images/map.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 205px 0px;
+}
+
+.contact-content form{
+  padding: 50px 0px
+}
+
+.contact-content input, textarea{
+width: 70%;
+margin: 0px 30% 0px 0px;
 }
